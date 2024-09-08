@@ -7,6 +7,7 @@ import { verify } from "./actions/verify";
 import { checkBalance, deployAccount, deploySystemAccount, getResourceBalance, produceResource, produceStick, catchFish, cookFish } from "./actions/actions";
 import { motion } from 'framer-motion';
 
+
 export default function Home() {
   const [nullifierHash, setNullifierHash] = useState<string | null>(null);
   const [isCreatingWallet, setIsCreatingWallet] = useState(false);
